@@ -1,5 +1,5 @@
 // Builds the page from data/clubs.js. All money figures in the data are £'000, as reported.
-// A season picker scopes every view; club pages also show all three seasons side by side.
+// League and season pickers scope every view; club pages also show all three seasons side by side.
 (function () {
   "use strict";
 
@@ -57,13 +57,24 @@
     };
   }
 
-  let season = LATEST;
-  try {
-    const saved = localStorage.getItem("clubLedger.season");
-    if (SEASONS.includes(saved)) season = saved;
-  } catch (_) {}
+  const remembered = (key) => {
+    try {
+      return localStorage.getItem(key);
+    } catch (_) {
+      return null;
+    }
+  };
+  const remember = (key, value) => {
+    try {
+      localStorage.setItem(key, value);
+    } catch (_) {}
+  };
+
+  let season = SEASONS.includes(remembered("clubLedger.season")) ? remembered("clubLedger.season") : LATEST;
+  let league = DATA.leagues.find((l) => l.id === remembered("clubLedger.league")) || DATA.leagues[0];
   let clubs = [];
-  const loadSeason = () => (clubs = DATA.clubs.map((c) => clubSeason(c, season)));
+  const loadSeason = () => (clubs = league.clubs.map((c) => clubSeason(c, season)));
+  const leagueOfClub = (slug) => DATA.leagues.find((l) => l.clubs.some((c) => c.slug === slug));
 
   // ---------- Headline tiles and highlights ----------
 
@@ -97,11 +108,14 @@
         view: "wages", title: "Wages",
         text: `${byWage.filter((c) => c.wageRatio > 1).length} clubs spent more on staff than their entire revenue. The highest:`,
         body: list(byWage.slice(0, 3), (c) => pct(c.wageRatio)),
-        cta: "Wage ratios for all 24 clubs",
+        cta: `Wage ratios for all ${clubs.length} clubs`,
       },
       {
         view: "revenue", title: "Revenue",
-        text: `The ${fromPL.length} clubs that were in the Premier League in ${season} brought in ${Math.round(plShare * 100)}% of the 24 clubs' combined revenue. The biggest earners:`,
+        text:
+          league.id === "premier-league"
+            ? `The six biggest earners brought in ${Math.round(([...clubs].sort((a, b) => b.revenue - a.revenue).slice(0, 6).reduce((s, c) => s + c.revenue, 0) / total) * 100)}% of the ${clubs.length} clubs' combined revenue in ${season}. The top three:`
+            : `The ${fromPL.length} clubs that were in the Premier League in ${season} brought in ${Math.round(plShare * 100)}% of the ${clubs.length} clubs' combined revenue. The biggest earners:`,
         body: list([...clubs].sort((a, b) => b.revenue - a.revenue).slice(0, 3), (c) => m(c.revenue)),
         cta: "Revenue sources for every club",
       },
@@ -109,7 +123,7 @@
         view: "results", title: "Profit & loss",
         text: `${profitable.length === 0 ? "No club" : `Only ${profitable.length} ${profitable.length === 1 ? "club" : "clubs"}`} made a profit, even with ${m(sales)} of profit from selling players. The biggest losses:`,
         body: list(byLoss.slice(0, 3), (c) => m(c.preTax)),
-        cta: "Results for all 24 clubs",
+        cta: `Results for all ${clubs.length} clubs`,
       },
     ];
     $("highlights").innerHTML = cards
@@ -205,7 +219,7 @@
       onSelect: (r) => goToClub(r.club.slug),
     });
     $("result-lede").textContent = three
-      ? `Each club's results before tax for ${SEASONS.join(", ")} added together. The EFL judges clubs' losses over three seasons, so this is closer to how the league looks at them, though clubs can deduct some spending (academy, women's football, infrastructure) that the accounts don't show separately.`
+      ? `Each club's results before tax for ${SEASONS.join(", ")} added together. Both the Premier League and the EFL judge clubs' losses over three seasons, so this is closer to how the leagues look at them, though clubs can deduct some spending (academy, women's football, infrastructure) that the accounts don't show separately.`
       : "Includes profits from selling players, which is how many clubs close the gap between what they earn and what they spend.";
   }
 
@@ -344,8 +358,20 @@
     location.hash = slug;
   }
 
+  function setLeague(next) {
+    if (next === league) return;
+    league = next;
+    remember("clubLedger.league", league.id);
+    $("league-select").value = league.id;
+    fillClubSelect();
+    renderSeason();
+  }
+
   function showView() {
-    const token = location.hash.slice(1);
+    let token = location.hash.slice(1);
+    const linkedLeague = DATA.leagues.find((l) => l.id === token) || leagueOfClub(token);
+    if (linkedLeague) setLeague(linkedLeague);
+    if (DATA.leagues.some((l) => l.id === token)) token = "overview";
     const club = clubs.find((c) => c.slug === token);
     const view = club ? "club" : VIEWS.includes(token) ? token : "overview";
     document.querySelectorAll("[data-view]").forEach((el) => (el.hidden = el.dataset.view !== view));
@@ -367,6 +393,8 @@
   function renderSeason() {
     loadSeason();
     document.querySelectorAll("[data-season-label]").forEach((el) => (el.textContent = season));
+    document.querySelectorAll("[data-league-label]").forEach((el) => (el.textContent = league.name));
+    $("league-season").textContent = `${league.name} ${league.season}`;
     renderTiles();
     renderHighlights();
     wageChart();
@@ -391,15 +419,22 @@
     const row = e.target.closest("tr[data-club]");
     if (row && !e.target.closest("a")) goToClub(row.dataset.club);
   });
-  $("club-select").innerHTML = [...DATA.clubs].sort((a, b) => a.name.localeCompare(b.name)).map((c) => `<option value="${c.slug}">${c.name}</option>`).join("");
+  function fillClubSelect() {
+    $("club-select").innerHTML = [...league.clubs].sort((a, b) => a.name.localeCompare(b.name)).map((c) => `<option value="${c.slug}">${c.name}</option>`).join("");
+  }
+  fillClubSelect();
+  $("league-select").innerHTML = DATA.leagues.map((l) => `<option value="${l.id}">${l.name}</option>`).join("");
+  $("league-select").value = league.id;
+  $("league-select").addEventListener("change", (e) => {
+    setLeague(DATA.leagues.find((l) => l.id === e.target.value));
+    location.hash = "overview";
+  });
   $("club-select").addEventListener("change", (e) => goToClub(e.target.value));
   $("season-select").innerHTML = [...SEASONS].reverse().map((y) => `<option value="${y}">${y}</option>`).join("");
   $("season-select").value = season;
   $("season-select").addEventListener("change", (e) => {
     season = e.target.value;
-    try {
-      localStorage.setItem("clubLedger.season", season);
-    } catch (_) {}
+    remember("clubLedger.season", season);
     renderSeason();
   });
   window.addEventListener("hashchange", showView);

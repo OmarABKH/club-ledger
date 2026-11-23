@@ -12,12 +12,13 @@ os.makedirs(f"pdf{SUFFIX}", exist_ok=True)
 META = f"filings{SUFFIX}.json"
 meta = json.load(open(META)) if os.path.exists(META) else {}
 only = set(sys.argv[1:])
-for line in open("clubs.tsv", encoding="utf-8"):
+for line in open(os.environ.get("CLUBS", "clubs.tsv"), encoding="utf-8"):
     slug, name, number = line.rstrip("\n").split("\t")
     if only and slug not in only:
         continue
-    page = get(f"{BASE}/company/{number}/filing-history?category=accounts")
-    company = clean(re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S).group(1))
+    pages = [get(f"{BASE}/company/{number}/filing-history?category=accounts&page={n}") for n in (1, 2, 3)]
+    page = "".join(pages)
+    company = clean(re.search(r"<h1[^>]*>(.*?)</h1>", pages[0], re.S).group(1))
     found = None
     for row in re.findall(r"<tr>(.*?)</tr>", page, re.S):
         cells = [clean(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]

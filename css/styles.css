@@ -95,11 +95,16 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .tabs a:hover { background: var(--hover); color: var(--ink); }
 .tabs a[aria-current="page"] { background: var(--ink); color: var(--surface); }
 .tabs a:focus-visible, .brand:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
-.season { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); white-space: nowrap; }
+.season {  display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); white-space: nowrap; }
+.season.league { margin-left: auto; }
 .season select { font: inherit; font-size: 14px; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 5px 8px; }
+/* Phones: league and season pickers on one row, the section menu on its own row below. */
 @media (max-width: 600px) {
   .brand, .season span { display: none; }
-  .topnav-inner { gap: 10px; }
+  .topnav-inner { flex-wrap: wrap; gap: 6px 8px; padding-block: 8px; }
+  .season, .season.league { margin-left: 0; flex: 1 1 0; min-width: 0; }
+  .season select { width: 100%; }
+  .tabs { order: 3; flex: 1 0 100%; }
 }
 table.data.trend th.current, table.data.trend td.current { background: var(--hover); }
 /* Fixed layout so all three seasons fit on a phone without scrolling sideways. */

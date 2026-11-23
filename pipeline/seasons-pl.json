@@ -1,0 +1,1307 @@
+{
+ "arsenal": {
+  "2024/25": {
+   "revenue": 690998,
+   "matchday": 153854,
+   "broadcasting": 272784,
+   "commercial": 264360,
+   "staffCosts": 346804,
+   "amortisation": 186868,
+   "playerSales": 81237,
+   "preTax": -1348,
+   "prior": {
+    "revenue": 616580,
+    "staffCosts": 327822,
+    "preTax": -17687
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 23,
+    "revenue": 32,
+    "staff": 34
+   },
+   "notes": [
+    "Player amortisation includes a \u00a315.2m write-down of players sold after the year end."
+   ],
+   "league": "PL",
+   "otherOpCosts": 220534
+  },
+  "2023/24": {
+   "revenue": 616580,
+   "matchday": 131652,
+   "broadcasting": 262252,
+   "commercial": 222676,
+   "staffCosts": 327822,
+   "amortisation": 171099,
+   "playerSales": 51073,
+   "preTax": -17687,
+   "source": "2024",
+   "pages": {
+    "pnl": 22,
+    "revenue": 32,
+    "staff": 33
+   },
+   "league": "PL",
+   "otherOpCosts": 166053
+  },
+  "2022/23": {
+   "revenue": 466685,
+   "matchday": 102604,
+   "broadcasting": 191194,
+   "commercial": 172887,
+   "staffCosts": 234766,
+   "amortisation": 157151,
+   "playerSales": 10732,
+   "preTax": -52124,
+   "source": "2024",
+   "pages": {
+    "pnl": 22,
+    "revenue": 32,
+    "staff": 33
+   },
+   "league": "PL",
+   "otherOpCosts": 130012
+  }
+ },
+ "aston-villa": {
+  "2024/25": {
+   "revenue": 378132,
+   "matchday": 38452,
+   "broadcasting": 240949,
+   "commercial": 98731,
+   "staffCosts": 273376,
+   "amortisation": 106193,
+   "playerSales": 51981,
+   "preTax": -96710,
+   "prior": {
+    "revenue": 275695,
+    "staffCosts": 252049,
+    "preTax": -85165
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 20,
+    "revenue": 40,
+    "staff": 42
+   },
+   "notes": [
+    "Uses the group accounts of NSWE UK Limited, the club's UK parent: the club company on its own does not employ the players.",
+    "Broadcasting includes \u00a370.2m of UEFA distributions from the Champions League."
+   ],
+   "league": "PL",
+   "otherOpCosts": 137608
+  },
+  "2023/24": {
+   "revenue": 275695,
+   "matchday": 28009,
+   "broadcasting": 184408,
+   "commercial": 63278,
+   "staffCosts": 252049,
+   "amortisation": 96548,
+   "playerSales": 64713,
+   "preTax": -85893,
+   "months": 13,
+   "source": "2024",
+   "pages": {
+    "pnl": 17,
+    "revenue": 30,
+    "staff": 32
+   },
+   "notes": [
+    "Uses the group accounts of NSWE UK Limited, the club's UK parent: the club company on its own does not employ the players.",
+    "These accounts cover 13 months (1 June 2023 to 30 June 2024) because the club changed its year end.",
+    "Some of these figures were restated in the following year's accounts; the site shows them as first reported."
+   ],
+   "league": "PL",
+   "otherOpCosts": 77495
+  },
+  "2022/23": {
+   "revenue": 217694,
+   "matchday": 18777,
+   "broadcasting": 152556,
+   "commercial": 46361,
+   "staffCosts": 194236,
+   "amortisation": 92519,
+   "playerSales": 22462,
+   "preTax": -120309,
+   "source": "2024",
+   "pages": {
+    "pnl": 17,
+    "revenue": 30,
+    "staff": 32
+   },
+   "notes": [
+    "Uses the group accounts of NSWE UK Limited, the club's UK parent: the club company on its own does not employ the players.",
+    "Year to 31 May 2023."
+   ],
+   "league": "PL",
+   "otherOpCosts": 70426
+  }
+ },
+ "bournemouth": {
+  "2024/25": {
+   "revenue": 181716,
+   "matchday": 6738,
+   "broadcasting": 147999,
+   "commercial": 26979,
+   "staffCosts": 158422,
+   "amortisation": 69165,
+   "otherOpCosts": 34270,
+   "playerSales": 91017,
+   "preTax": 14887,
+   "prior": {
+    "revenue": 160792,
+    "staffCosts": 136170,
+    "preTax": -66265
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 17,
+    "revenue": 32,
+    "staff": 34
+   },
+   "league": "PL"
+  },
+  "2023/24": {
+   "revenue": 160792,
+   "matchday": 6531,
+   "broadcasting": 135631,
+   "commercial": 18630,
+   "staffCosts": 136170,
+   "amortisation": 61616,
+   "otherOpCosts": 27922,
+   "playerSales": 251,
+   "preTax": -66151,
+   "source": "2024",
+   "pages": {
+    "pnl": 18,
+    "revenue": 29,
+    "staff": 30
+   },
+   "league": "PL",
+   "notes": [
+    "Some of these figures were restated in the following year's accounts; the site shows them as first reported."
+   ]
+  },
+  "2022/23": {
+   "revenue": 140983,
+   "matchday": 5414,
+   "broadcasting": 122976,
+   "commercial": 12593,
+   "staffCosts": 100109,
+   "amortisation": 41226,
+   "otherOpCosts": 22955,
+   "playerSales": 1898,
+   "preTax": 44495,
+   "source": "2024",
+   "pages": {
+    "pnl": 18,
+    "revenue": 29,
+    "staff": 30
+   },
+   "notes": [
+    "The profit comes from a one-off \u00a371.4m gain on writing off loans from the club's previous owners."
+   ],
+   "league": "PL"
+  }
+ },
+ "brentford": {
+  "2024/25": {
+   "revenue": 173076,
+   "matchday": 12376,
+   "broadcasting": 139547,
+   "commercial": 21153,
+   "staffCosts": 130778,
+   "amortisation": 47872,
+   "playerSales": 27236,
+   "preTax": -20527,
+   "prior": {
+    "revenue": 166536,
+    "staffCosts": 114371,
+    "preTax": -7873
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 23,
+    "revenue": 39,
+    "staff": 40
+   },
+   "notes": [
+    "Other items include an \u00a38.8m profit on selling property and \u00a36.7m of compensation for staff who left."
+   ],
+   "league": "PL",
+   "otherOpCosts": 53410
+  },
+  "2023/24": {
+   "revenue": 166536,
+   "matchday": 11341,
+   "broadcasting": 127500,
+   "commercial": 27695,
+   "staffCosts": 114371,
+   "amortisation": 35631,
+   "playerSales": 25198,
+   "preTax": -7873,
+   "source": "2024",
+   "pages": {
+    "pnl": 28,
+    "revenue": 44,
+    "staff": 45
+   },
+   "league": "PL",
+   "otherOpCosts": 51153
+  },
+  "2022/23": {
+   "revenue": 166508,
+   "matchday": 11250,
+   "broadcasting": 135175,
+   "commercial": 20083,
+   "staffCosts": 98800,
+   "amortisation": 30903,
+   "playerSales": 5561,
+   "preTax": 9163,
+   "source": "2024",
+   "pages": {
+    "pnl": 28,
+    "revenue": 44,
+    "staff": 45
+   },
+   "league": "PL",
+   "otherOpCosts": 35882
+  }
+ },
+ "brighton": {
+  "2024/25": {
+   "revenue": 242672,
+   "matchday": 27878,
+   "broadcasting": 151090,
+   "commercial": 63704,
+   "staffCosts": 164552,
+   "amortisation": 81976,
+   "playerSales": 57005,
+   "preTax": -55805,
+   "prior": {
+    "revenue": 260849,
+    "staffCosts": 146222,
+    "preTax": 75126
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 22,
+    "revenue": 35,
+    "staff": 36
+   },
+   "league": "PL",
+   "otherOpCosts": 112629
+  },
+  "2023/24": {
+   "revenue": 260849,
+   "matchday": 27944,
+   "broadcasting": 163808,
+   "commercial": 69097,
+   "staffCosts": 146221,
+   "amortisation": 39374,
+   "playerSales": 110299,
+   "preTax": 75126,
+   "source": "2024",
+   "pages": {
+    "pnl": 19,
+    "revenue": 32,
+    "staff": 33
+   },
+   "league": "PL",
+   "otherOpCosts": 116037
+  },
+  "2022/23": {
+   "revenue": 204450,
+   "matchday": 24647,
+   "broadcasting": 155181,
+   "commercial": 24622,
+   "staffCosts": 127563,
+   "amortisation": 32772,
+   "playerSales": 121411,
+   "preTax": 133252,
+   "source": "2024",
+   "pages": {
+    "pnl": 19,
+    "revenue": 32,
+    "staff": 33
+   },
+   "league": "PL",
+   "otherOpCosts": 59750
+  }
+ },
+ "chelsea": {
+  "2024/25": {
+   "revenue": 490857,
+   "matchday": 86762,
+   "broadcasting": 203230,
+   "commercial": 200865,
+   "staffCosts": 359265,
+   "amortisation": 224344,
+   "playerSales": 57906,
+   "preTax": -262444,
+   "prior": {
+    "revenue": 468486,
+    "staffCosts": 338021,
+    "preTax": 128400
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 17,
+    "revenue": 32,
+    "staff": 34
+   },
+   "notes": [
+    "Player amortisation here is Chelsea's combined line for amortisation, impairment and player trading costs, including \u00a362.3m of impairment and other charges."
+   ],
+   "league": "PL",
+   "otherOpCosts": 215905
+  },
+  "2023/24": {
+   "revenue": 468486,
+   "matchday": 80120,
+   "broadcasting": 163101,
+   "commercial": 225265,
+   "staffCosts": 338021,
+   "amortisation": 190056,
+   "playerSales": 152463,
+   "preTax": 128400,
+   "source": "2024",
+   "pages": {
+    "pnl": 21,
+    "revenue": 36,
+    "staff": 38
+   },
+   "notes": [
+    "The profit relies on a \u00a3198.7m gain from selling the women's team (Chelsea Football Club Women Ltd) to a sister company in the same ownership group."
+   ],
+   "league": "PL",
+   "otherOpCosts": 154083
+  },
+  "2022/23": {
+   "revenue": 512467,
+   "matchday": 76481,
+   "broadcasting": 225902,
+   "commercial": 210084,
+   "staffCosts": 403962,
+   "amortisation": 203300,
+   "playerSales": 62861,
+   "preTax": -90100,
+   "source": "2024",
+   "pages": {
+    "pnl": 21,
+    "revenue": 36,
+    "staff": 38
+   },
+   "notes": [
+    "Includes a \u00a376.5m gain from selling hotel and car park property to a sister company in the same ownership group.",
+    "Player amortisation (\u00a3203.3m) is as stated in round figures in the following year's accounts."
+   ],
+   "league": "PL",
+   "otherOpCosts": 153793
+  }
+ },
+ "coventry": {
+  "2024/25": {
+   "revenue": 34145,
+   "matchday": 12203,
+   "broadcasting": 12187,
+   "commercial": 9756,
+   "staffCosts": 26477,
+   "amortisation": 14060,
+   "playerSales": 3126,
+   "preTax": -21601,
+   "prior": {
+    "revenue": 29307,
+    "staffCosts": 23406,
+    "preTax": 8688
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 14,
+    "revenue": 22,
+    "staff": 23
+   },
+   "league": "CH",
+   "otherOpCosts": 18385
+  },
+  "2023/24": {
+   "revenue": 29307,
+   "matchday": 10041,
+   "broadcasting": 10122,
+   "commercial": 9143,
+   "staffCosts": 23406,
+   "amortisation": 8333,
+   "playerSales": 23678,
+   "preTax": 8688,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 20,
+    "staff": 22
+   },
+   "league": "CH",
+   "otherOpCosts": 12531
+  },
+  "2022/23": {
+   "revenue": 20370,
+   "matchday": 7175,
+   "broadcasting": 9037,
+   "commercial": 4158,
+   "staffCosts": 17914,
+   "amortisation": 2871,
+   "playerSales": 2369,
+   "preTax": -4907,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 20,
+    "staff": 22
+   },
+   "league": "CH",
+   "otherOpCosts": 7470
+  }
+ },
+ "crystal-palace": {
+  "2024/25": {
+   "revenue": 195304,
+   "matchday": 15491,
+   "broadcasting": 142296,
+   "commercial": 37517,
+   "staffCosts": 145478,
+   "amortisation": 53986,
+   "playerSales": 66078,
+   "preTax": 8070,
+   "prior": {
+    "revenue": 189310,
+    "staffCosts": 132444,
+    "preTax": -33563
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 16,
+    "revenue": 23,
+    "staff": 24
+   },
+   "notes": [
+    "Commercial & other includes \u00a34.4m of cup prize money (Palace won the FA Cup in May 2025)."
+   ],
+   "league": "PL",
+   "otherOpCosts": 38561
+  },
+  "2023/24": {
+   "revenue": 189310,
+   "matchday": 13809,
+   "broadcasting": 145451,
+   "commercial": 30050,
+   "staffCosts": 132444,
+   "amortisation": 45948,
+   "playerSales": 1341,
+   "preTax": -33563,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 21,
+    "staff": 22
+   },
+   "league": "PL",
+   "otherOpCosts": 32268
+  },
+  "2022/23": {
+   "revenue": 179518,
+   "matchday": 12344,
+   "broadcasting": 141059,
+   "commercial": 26115,
+   "staffCosts": 129720,
+   "amortisation": 40487,
+   "playerSales": 331,
+   "preTax": -27186,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 21,
+    "staff": 22
+   },
+   "league": "PL",
+   "otherOpCosts": 28877
+  }
+ },
+ "everton": {
+  "2024/25": {
+   "revenue": 196697,
+   "matchday": 20309,
+   "broadcasting": 129235,
+   "commercial": 47153,
+   "staffCosts": 152064,
+   "amortisation": 50901,
+   "playerSales": 31325,
+   "preTax": -8609,
+   "prior": {
+    "revenue": 186902,
+    "staffCosts": 156631,
+    "preTax": -53222
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 17,
+    "revenue": 26,
+    "staff": 28
+   },
+   "notes": [
+    "Includes a one-off \u00a349.2m profit on selling an investment, and \u00a311.2m of exceptional costs (staff departures and refinancing)."
+   ],
+   "league": "PL",
+   "otherOpCosts": 69665
+  },
+  "2023/24": {
+   "revenue": 186902,
+   "matchday": 19145,
+   "broadcasting": 129218,
+   "commercial": 38539,
+   "staffCosts": 156631,
+   "amortisation": 64581,
+   "playerSales": 48545,
+   "preTax": -53222,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 23,
+    "staff": 25
+   },
+   "league": "PL",
+   "otherOpCosts": 58378
+  },
+  "2022/23": {
+   "revenue": 172155,
+   "matchday": 17260,
+   "broadcasting": 116022,
+   "commercial": 38873,
+   "staffCosts": 159026,
+   "amortisation": 89477,
+   "playerSales": 47518,
+   "preTax": -89090,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 23,
+    "staff": 25
+   },
+   "notes": [
+    "Player amortisation includes \u00a311.9m of exceptional player and management trading costs."
+   ],
+   "league": "PL",
+   "otherOpCosts": 54112
+  }
+ },
+ "fulham": {
+  "2024/25": {
+   "revenue": 194790,
+   "matchday": 18010,
+   "broadcasting": 141585,
+   "commercial": 35195,
+   "staffCosts": 166507,
+   "amortisation": 61521,
+   "playerSales": 41035,
+   "preTax": -39012,
+   "prior": {
+    "revenue": 181559,
+    "staffCosts": 154754,
+    "preTax": -31206
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 14,
+    "revenue": 24,
+    "staff": 24
+   },
+   "league": "PL",
+   "otherOpCosts": 47327
+  },
+  "2023/24": {
+   "revenue": 181559,
+   "matchday": 18392,
+   "broadcasting": 134506,
+   "commercial": 28661,
+   "staffCosts": 154754,
+   "amortisation": 57400,
+   "playerSales": 32735,
+   "preTax": -31206,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 24,
+    "staff": 24
+   },
+   "league": "PL",
+   "otherOpCosts": 38868
+  },
+  "2022/23": {
+   "revenue": 182325,
+   "matchday": 15170,
+   "broadcasting": 144474,
+   "commercial": 22681,
+   "staffCosts": 139064,
+   "amortisation": 45617,
+   "playerSales": 8743,
+   "preTax": -26615,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 24,
+    "staff": 24
+   },
+   "league": "PL",
+   "otherOpCosts": 33368
+  }
+ },
+ "hull": {
+  "2024/25": {
+   "revenue": 25822,
+   "matchday": 7160,
+   "broadcasting": 12546,
+   "commercial": 6116,
+   "staffCosts": 36678,
+   "amortisation": 10407,
+   "playerSales": 33052,
+   "preTax": -10224,
+   "prior": {
+    "revenue": 21230,
+    "staffCosts": 29557,
+    "preTax": -18850
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 13,
+    "revenue": 22,
+    "staff": 23
+   },
+   "league": "CH",
+   "otherOpCosts": 20418
+  },
+  "2023/24": {
+   "revenue": 21230,
+   "matchday": 5736,
+   "broadcasting": 9442,
+   "commercial": 6051,
+   "staffCosts": 29557,
+   "amortisation": 4727,
+   "playerSales": 8336,
+   "preTax": -18850,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 20,
+    "staff": 22
+   },
+   "notes": [
+    "Profit on player sales is included within administrative expenses in these accounts and is pulled out here."
+   ],
+   "league": "CH",
+   "otherOpCosts": 13411
+  },
+  "2022/23": {
+   "revenue": 18088,
+   "matchday": 5162,
+   "broadcasting": 9025,
+   "commercial": 3901,
+   "staffCosts": 23651,
+   "amortisation": 3214,
+   "playerSales": 15192,
+   "preTax": -5218,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 20,
+    "staff": 22
+   },
+   "notes": [
+    "Profit on player sales is included within administrative expenses in these accounts and is pulled out here."
+   ],
+   "league": "CH",
+   "otherOpCosts": 11823
+  }
+ },
+ "ipswich": {
+  "2024/25": {
+   "revenue": 155418,
+   "matchday": 11246,
+   "broadcasting": 107551,
+   "commercial": 36621,
+   "staffCosts": 77141,
+   "amortisation": 29814,
+   "playerSales": 15400,
+   "preTax": 4011,
+   "prior": {
+    "revenue": 37306,
+    "staffCosts": 44528,
+    "preTax": -39280
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 14,
+    "revenue": 24,
+    "staff": 25
+   },
+   "league": "PL",
+   "otherOpCosts": 59242
+  },
+  "2023/24": {
+   "revenue": 37306,
+   "matchday": 10450,
+   "broadcasting": 10340,
+   "commercial": 16516,
+   "staffCosts": 44528,
+   "amortisation": 4789,
+   "playerSales": 1226,
+   "preTax": -39280,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 21,
+    "staff": 22
+   },
+   "notes": [
+    "Staff costs include \u00a315.6m of one-off bonuses for promotion to the Premier League."
+   ],
+   "league": "CH",
+   "otherOpCosts": 29981
+  },
+  "2022/23": {
+   "revenue": 21754,
+   "matchday": 8005,
+   "broadcasting": 3895,
+   "commercial": 9854,
+   "staffCosts": 19797,
+   "amortisation": 2964,
+   "playerSales": 2268,
+   "preTax": -18171,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 21,
+    "staff": 22
+   },
+   "league": "L1",
+   "otherOpCosts": 19738
+  }
+ },
+ "leeds": {
+  "2024/25": {
+   "revenue": 136989,
+   "matchday": 31648,
+   "broadcasting": 47229,
+   "commercial": 58113,
+   "staffCosts": 102724,
+   "amortisation": 45728,
+   "playerSales": 24766,
+   "preTax": -49178,
+   "prior": {
+    "revenue": 127558,
+    "staffCosts": 84030,
+    "preTax": -60811
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 15,
+    "revenue": 24,
+    "staff": 26
+   },
+   "league": "CH",
+   "otherOpCosts": 56939
+  },
+  "2023/24": {
+   "revenue": 127558,
+   "matchday": 30634,
+   "broadcasting": 53643,
+   "commercial": 43281,
+   "staffCosts": 84030,
+   "amortisation": 59590,
+   "playerSales": 33694,
+   "preTax": -60811,
+   "source": "2024",
+   "pages": {
+    "pnl": 15,
+    "revenue": 24,
+    "staff": 25
+   },
+   "league": "CH",
+   "otherOpCosts": 60192
+  },
+  "2022/23": {
+   "revenue": 189684,
+   "matchday": 29921,
+   "broadcasting": 111545,
+   "commercial": 48218,
+   "staffCosts": 145857,
+   "amortisation": 81136,
+   "playerSales": 73345,
+   "preTax": -33704,
+   "source": "2024",
+   "pages": {
+    "pnl": 15,
+    "revenue": 24,
+    "staff": 25
+   },
+   "league": "PL",
+   "otherOpCosts": 68665
+  }
+ },
+ "liverpool": {
+  "2024/25": {
+   "revenue": 702722,
+   "matchday": 115591,
+   "broadcasting": 263659,
+   "commercial": 323472,
+   "staffCosts": 427727,
+   "amortisation": 117348,
+   "playerSales": 53268,
+   "preTax": 15212,
+   "prior": {
+    "revenue": 613764,
+    "staffCosts": 386086,
+    "preTax": -57104
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 14,
+    "revenue": 26,
+    "staff": 27
+   },
+   "notes": [
+    "Other items include a \u00a312.9m insurance settlement for historic loss of earnings."
+   ],
+   "league": "PL",
+   "otherOpCosts": 200046
+  },
+  "2023/24": {
+   "revenue": 613764,
+   "matchday": 101661,
+   "broadcasting": 203705,
+   "commercial": 308398,
+   "staffCosts": 386086,
+   "amortisation": 115097,
+   "playerSales": 22017,
+   "preTax": -57104,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 26,
+    "staff": 27
+   },
+   "notes": [
+    "Matchday revenue includes \u00a38.6m of compensation for lost matchday revenue."
+   ],
+   "league": "PL",
+   "otherOpCosts": 182256
+  },
+  "2022/23": {
+   "revenue": 593836,
+   "matchday": 79760,
+   "broadcasting": 241553,
+   "commercial": 272523,
+   "staffCosts": 372881,
+   "amortisation": 109687,
+   "playerSales": 33767,
+   "preTax": -9005,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 26,
+    "staff": 27
+   },
+   "league": "PL",
+   "otherOpCosts": 149492
+  }
+ },
+ "man-city": {
+  "2024/25": {
+   "revenue": 694094,
+   "matchday": 75084,
+   "broadcasting": 278627,
+   "commercial": 340383,
+   "staffCosts": 408403,
+   "amortisation": 169546,
+   "playerSales": 95210,
+   "preTax": -9916,
+   "prior": {
+    "revenue": 715019,
+    "staffCosts": 412573,
+    "preTax": 73757
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 15,
+    "revenue": 28,
+    "staff": 29
+   },
+   "league": "PL",
+   "otherOpCosts": 212282
+  },
+  "2023/24": {
+   "revenue": 715019,
+   "matchday": 75607,
+   "broadcasting": 294731,
+   "commercial": 344681,
+   "staffCosts": 412573,
+   "amortisation": 165094,
+   "playerSales": 139009,
+   "preTax": 73757,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 27,
+    "staff": 28
+   },
+   "league": "PL",
+   "otherOpCosts": 202304
+  },
+  "2022/23": {
+   "revenue": 712768,
+   "matchday": 71914,
+   "broadcasting": 299410,
+   "commercial": 341444,
+   "staffCosts": 422895,
+   "amortisation": 145448,
+   "playerSales": 121720,
+   "preTax": 80371,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 27,
+    "staff": 28
+   },
+   "league": "PL",
+   "otherOpCosts": 185519
+  }
+ },
+ "man-utd": {
+  "2024/25": {
+   "revenue": 600652,
+   "matchday": 162115,
+   "broadcasting": 166050,
+   "commercial": 272487,
+   "staffCosts": 328230,
+   "amortisation": 193384,
+   "playerSales": 48621,
+   "preTax": -32747,
+   "prior": {
+    "revenue": 613444,
+    "staffCosts": 353093,
+    "preTax": -70854
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 14,
+    "revenue": 32,
+    "staff": 34
+   },
+   "notes": [
+    "Staff costs include \u00a332.2m of termination payments (shown by the club as an exceptional item) from its redundancy programme and staff departures."
+   ],
+   "league": "PL",
+   "otherOpCosts": 138081
+  },
+  "2023/24": {
+   "revenue": 613444,
+   "matchday": 139069,
+   "broadcasting": 213794,
+   "commercial": 260581,
+   "staffCosts": 353093,
+   "amortisation": 187347,
+   "playerSales": 38033,
+   "preTax": -70854,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 32,
+    "staff": 34
+   },
+   "league": "PL",
+   "otherOpCosts": 138624
+  },
+  "2022/23": {
+   "revenue": 601313,
+   "matchday": 137690,
+   "broadcasting": 202278,
+   "commercial": 261345,
+   "staffCosts": 313775,
+   "amortisation": 170355,
+   "playerSales": 19468,
+   "preTax": -25132,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 32,
+    "staff": 34
+   },
+   "league": "PL",
+   "otherOpCosts": 142708
+  }
+ },
+ "newcastle": {
+  "2024/25": {
+   "revenue": 323124,
+   "matchday": 51058,
+   "broadcasting": 160899,
+   "commercial": 111167,
+   "staffCosts": 241344,
+   "amortisation": 99833,
+   "playerSales": 19870,
+   "preTax": 18740,
+   "prior": {
+    "revenue": 317134,
+    "staffCosts": 217566,
+    "preTax": -10925
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 17,
+    "revenue": 28,
+    "staff": 29
+   },
+   "notes": [
+    "The profit relies on \u00a3119.4m of one-off gains from selling St James\u2019 Park leasehold improvements (via a 72-year underlease) and a subsidiary to a sister company in the same ownership group."
+   ],
+   "league": "PL",
+   "otherOpCosts": 94113
+  },
+  "2023/24": {
+   "revenue": 317134,
+   "matchday": 49877,
+   "broadcasting": 183785,
+   "commercial": 83472,
+   "staffCosts": 217566,
+   "amortisation": 97541,
+   "playerSales": 69816,
+   "preTax": -10925,
+   "source": "2024",
+   "pages": {
+    "pnl": 18,
+    "revenue": 30,
+    "staff": 31
+   },
+   "notes": [
+    "Broadcasting includes \u00a329.8m from the Champions League."
+   ],
+   "league": "PL",
+   "otherOpCosts": 70589
+  },
+  "2022/23": {
+   "revenue": 249865,
+   "matchday": 37736,
+   "broadcasting": 165485,
+   "commercial": 46644,
+   "staffCosts": 184673,
+   "amortisation": 89343,
+   "playerSales": 2836,
+   "preTax": -71744,
+   "source": "2024",
+   "pages": {
+    "pnl": 18,
+    "revenue": 30,
+    "staff": 31
+   },
+   "notes": [
+    "2022/23 figures are the restated comparatives shown in the 2023/24 accounts."
+   ],
+   "league": "PL",
+   "otherOpCosts": 43546
+  }
+ },
+ "nottm-forest": {
+  "2024/25": {
+   "revenue": 221746,
+   "matchday": 20251,
+   "broadcasting": 158600,
+   "commercial": 42895,
+   "staffCosts": 166651,
+   "amortisation": 74205,
+   "playerSales": 7017,
+   "preTax": -78921,
+   "prior": {
+    "revenue": 189552,
+    "staffCosts": 166399,
+    "preTax": 12099
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 15,
+    "revenue": 26,
+    "staff": 27
+   },
+   "league": "PL",
+   "otherOpCosts": 45817
+  },
+  "2023/24": {
+   "revenue": 189552,
+   "matchday": 14408,
+   "broadcasting": 130019,
+   "commercial": 45125,
+   "staffCosts": 166399,
+   "amortisation": 61685,
+   "playerSales": 100531,
+   "preTax": 12099,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 24,
+    "staff": 25
+   },
+   "league": "PL",
+   "otherOpCosts": 34723
+  },
+  "2022/23": {
+   "revenue": 154758,
+   "matchday": 10992,
+   "broadcasting": 124836,
+   "commercial": 18930,
+   "staffCosts": 144912,
+   "amortisation": 40766,
+   "playerSales": 2614,
+   "preTax": -67246,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 24,
+    "staff": 25
+   },
+   "league": "PL",
+   "otherOpCosts": 28638
+  }
+ },
+ "sunderland": {
+  "2024/25": {
+   "revenue": 39422,
+   "matchday": 13020,
+   "broadcasting": 12005,
+   "commercial": 14397,
+   "staffCosts": 52899,
+   "amortisation": 10409,
+   "playerSales": 45843,
+   "preTax": -3279,
+   "prior": {
+    "revenue": 37452,
+    "staffCosts": 30463,
+    "preTax": -9071
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 14,
+    "revenue": 23,
+    "staff": 23
+   },
+   "league": "CH",
+   "otherOpCosts": 22288
+  },
+  "2023/24": {
+   "revenue": 37452,
+   "matchday": 11537,
+   "broadcasting": 10443,
+   "commercial": 15472,
+   "staffCosts": 30463,
+   "amortisation": 3983,
+   "playerSales": 8818,
+   "preTax": -9071,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 23,
+    "staff": 23
+   },
+   "league": "CH",
+   "otherOpCosts": 20337
+  },
+  "2022/23": {
+   "revenue": 35098,
+   "matchday": 10693,
+   "broadcasting": 10083,
+   "commercial": 14322,
+   "staffCosts": 25296,
+   "amortisation": 2715,
+   "playerSales": 306,
+   "preTax": -9680,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 23,
+    "staff": 23
+   },
+   "league": "CH",
+   "otherOpCosts": 19417
+  }
+ },
+ "tottenham": {
+  "2024/25": {
+   "revenue": 564881,
+   "matchday": 126473,
+   "broadcasting": 161709,
+   "commercial": 276699,
+   "staffCosts": 267412,
+   "amortisation": 146720,
+   "playerSales": 52565,
+   "preTax": -120628,
+   "prior": {
+    "revenue": 517763,
+    "staffCosts": 223457,
+    "preTax": -26030
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 23,
+    "revenue": 33,
+    "staff": 35
+   },
+   "notes": [
+    "Staff costs include \u00a311.6m of onerous employment contracts and other employment-related payments, shown by the club as exceptional.",
+    "Player amortisation is the club's combined football trading line (amortisation, impairment and other net trading costs).",
+    "Broadcasting includes \u00a334.7m of UEFA prize money from winning the Europa League."
+   ],
+   "league": "PL",
+   "otherOpCosts": 254097
+  },
+  "2023/24": {
+   "revenue": 517763,
+   "matchday": 105847,
+   "broadcasting": 167172,
+   "commercial": 244744,
+   "staffCosts": 223463,
+   "amortisation": 135583,
+   "playerSales": 82305,
+   "preTax": -26030,
+   "source": "2024",
+   "pages": {
+    "pnl": 20,
+    "revenue": 30,
+    "staff": 32
+   },
+   "notes": [
+    "Staff costs include payments under onerous employment contracts, shown by the club as exceptional.",
+    "Some of these figures were restated in the following year's accounts; the site shows them as first reported."
+   ],
+   "league": "PL",
+   "otherOpCosts": 230163
+  },
+  "2022/23": {
+   "revenue": 549633,
+   "matchday": 117598,
+   "broadcasting": 204285,
+   "commercial": 227750,
+   "staffCosts": 256231,
+   "amortisation": 127106,
+   "playerSales": 15510,
+   "preTax": -94674,
+   "source": "2024",
+   "pages": {
+    "pnl": 20,
+    "revenue": 30,
+    "staff": 32
+   },
+   "notes": [
+    "Staff costs include payments under onerous employment contracts, shown by the club as exceptional.",
+    "Broadcasting includes \u00a356.2m from the Champions League."
+   ],
+   "league": "PL",
+   "otherOpCosts": 231717
+  }
+ }
+}

@@ -1,20 +1,28 @@
-# Combines the filings (filings.json for accounts to 2025, filings-2024.json for accounts to 2024)
-# and the checked figures (seasons.json) into ../data/clubs.js, which the site loads.
+# Combines each league's filings and checked figures (see LEAGUES) into ../data/clubs.js,
+# which the site loads.
 # Each club has three seasons: 2024/25 from its 2025 accounts, and 2023/24 and 2022/23 from its
 # 2024 accounts (current year and comparatives).
 import json, re, datetime, os
 here = os.path.dirname(os.path.abspath(__file__))
 load = lambda name: json.load(open(os.path.join(here, name), encoding="utf-8"))
-filings = {"2025": load("filings.json"), "2024": load("filings-2024.json")}
-seasons = load("seasons.json")
 MONTHS = {m: i + 1 for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"])}
 SEASONS = ["2022/23", "2023/24", "2024/25"]
-# Comparatives whose year end isn't simply one year before the filing's (the club changed its year end).
-PRIOR_YEAR_END = {"swansea": "2023-07-31"}
+# One entry per league. prior_year_end covers comparatives whose year end isn't simply one
+# year before the filing's (the club changed its year end).
+LEAGUES = [
+    {"id": "premier-league", "name": "Premier League", "season": "2026/27",
+     "filings": {"2025": "filings-pl.json", "2024": "filings-pl-2024.json"}, "seasons": "seasons-pl.json",
+     "prior_year_end": {"aston-villa": "2023-05-31"}},
+    {"id": "championship", "name": "Championship", "season": "2026/27",
+     "filings": {"2025": "filings.json", "2024": "filings-2024.json"}, "seasons": "seasons.json",
+     "prior_year_end": {"swansea": "2023-07-31"}},
+]
 
 def tidy(name):
     name = re.sub(r",?\s*LIMITED\s*\(THE\)|,?\s*LIMITED,?\s*\(THE\)", " LIMITED", name)
     name = name.title().replace("Plc", "PLC").replace("Afc", "AFC").replace("Qpr", "QPR").replace(" And ", " and ").replace(" ,", ",")
+    # Acronyms that title-casing breaks.
+    name = re.sub(r"\b(Fc|Uk|Nswe|Cpfc|Afc|Plc|Qpr)\b", lambda m: m.group(1).upper(), name)
     if "(The)" in name:
         name = name.replace("(The)", "").strip()
     return re.sub(r"\s+", " ", name.replace(",Limited", " Limited")).strip()
@@ -24,32 +32,43 @@ def year_end(description):
     return datetime.date(int(m.group(3)), MONTHS[m.group(2)], int(m.group(1)))
 
 FIELDS = ["league", "revenue", "matchday", "broadcasting", "commercial", "staffCosts", "amortisation", "otherOpCosts", "playerSales", "preTax", "pages"]
-clubs = []
-for slug, latest in filings["2025"].items():
-    club = {"slug": slug, "name": latest["name"], "seasons": {}}
-    for season in SEASONS:
-        fig = seasons[slug][season]
-        source = filings[fig["source"]][slug]
-        end = year_end(source["description"])
-        if season == "2022/23":
-            end = datetime.date.fromisoformat(PRIOR_YEAR_END[slug]) if slug in PRIOR_YEAR_END else end.replace(year=end.year - 1)
-        club["seasons"][season] = {
-            **{k: fig[k] for k in FIELDS},
-            "yearEnd": end.isoformat(),
-            "months": fig.get("months", 12),
-            "companyName": tidy(source["companyName"]),
-            "companyNumber": source["companyNumber"],
-            "accountsType": "Group" if "group" in source["description"].lower() else "Company",
-            "sourceUrl": source["url"],
-            "comparative": season == "2022/23",
-            "mixSplit": fig.get("mixSplit") != "no",
-            "notes": fig.get("notes", []),
-        }
-    clubs.append(club)
-clubs.sort(key=lambda c: c["name"])
-out = {"asOf": datetime.date.today().strftime("%-d %B %Y"), "season": "2026/27", "seasons": SEASONS, "clubs": clubs}
+
+def build_league(cfg):
+    filings = {year: load(name) for year, name in cfg["filings"].items()}
+    seasons = load(cfg["seasons"])
+    clubs = []
+    for slug, latest in filings["2025"].items():
+        club = {"slug": slug, "name": latest["name"], "seasons": {}}
+        for season in SEASONS:
+            fig = seasons[slug][season]
+            source = filings[fig["source"]][slug]
+            end = year_end(source["description"])
+            if season == "2022/23":
+                override = cfg["prior_year_end"].get(slug)
+                end = datetime.date.fromisoformat(override) if override else end.replace(year=end.year - 1)
+            club["seasons"][season] = {
+                **{k: fig[k] for k in FIELDS},
+                "yearEnd": end.isoformat(),
+                "months": fig.get("months", 12),
+                "companyName": tidy(source["companyName"]),
+                "companyNumber": source["companyNumber"],
+                "accountsType": "Group" if "group" in source["description"].lower() else "Company",
+                "sourceUrl": source["url"],
+                "comparative": season == "2022/23",
+                "mixSplit": fig.get("mixSplit") != "no",
+                "notes": fig.get("notes", []),
+            }
+        clubs.append(club)
+    clubs.sort(key=lambda c: c["name"])
+    return {"id": cfg["id"], "name": cfg["name"], "season": cfg["season"], "clubs": clubs}
+
+leagues = [build_league(cfg) for cfg in LEAGUES]
+slugs = [c["slug"] for l in leagues for c in l["clubs"]]
+assert len(slugs) == len(set(slugs)), "club slugs must be unique across leagues (they are used as links)"
+out = {"asOf": datetime.date.today().strftime("%-d %B %Y"), "seasons": SEASONS, "leagues": leagues}
 with open(os.path.join(here, "..", "data", "clubs.js"), "w", encoding="utf-8") as fh:
-    fh.write("// Generated by pipeline/build_data.py — edit pipeline/seasons.json, not this file.\n")
+    fh.write("// Generated by pipeline/build_data.py — edit pipeline/seasons*.json, not this file.\n")
     fh.write("// Money figures are £'000 as reported in each club's accounts.\n")
     fh.write("window.CLUB_DATA = " + json.dumps(out, indent=1, ensure_ascii=False) + ";\n")
-print(len(clubs), "clubs ×", len(SEASONS), "seasons written")
+for l in leagues:
+    print(l["name"], len(l["clubs"]), "clubs ×", len(SEASONS), "seasons")
