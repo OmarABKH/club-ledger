@@ -102,7 +102,14 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   .topnav-inner { gap: 10px; }
 }
 table.data.trend th.current, table.data.trend td.current { background: var(--hover); }
+/* Fixed layout so all three seasons fit on a phone without scrolling sideways. */
+table.data.trend { table-layout: fixed; }
 table.data.trend th:first-child { width: 34%; }
+table.data.trend abbr { text-decoration: none; }
+@media (max-width: 560px) {
+  table.data.trend th, table.data.trend td { padding: 8px 4px; white-space: normal; font-size: 12px; }
+  table.data.trend th:first-child { width: 30%; }
+}
 
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin: 16px 0; min-width: 0; }
 .card h2 { margin: 0 0 12px; font: 600 22px/1.2 var(--display); text-wrap: balance; }

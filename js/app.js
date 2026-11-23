@@ -259,13 +259,13 @@
         <div class="table-scroll"><table class="data trend"><thead><tr><th scope="col"></th>${cols
           .map((s) => `<th scope="col" class="${s.season === season ? "current" : ""}">${s.season}</th>`)
           .join("")}</tr></thead><tbody>
-          ${row("League", (s) => LEAGUES[s.league])}
+          ${row("League", (s) => `<abbr title="${LEAGUES[s.league]}">${LEAGUE_SHORT[s.league]}</abbr>`)}
           ${row("Revenue", (s) => m(s.revenue))}
           ${row("Staff costs", (s) => m(s.staffCosts))}
           ${row("Wages / revenue", (s) => pct(s.wageRatio))}
-          ${row("Profit on player sales", (s) => m(s.playerSales))}
+          ${row("Player sales profit", (s) => m(s.playerSales))}
           ${row("Result before tax", (s) => `<span class="${s.preTax < 0 ? "neg" : ""}">${m(s.preTax)}</span>`)}
-          ${row("Period", (s) => `${s.months === 12 ? "" : `${s.months} months to `}${yearEnd(s.yearEnd)}`)}
+          ${row("Period", (s) => `${s.months === 12 ? "" : `${s.months}m to `}${yearEnd(s.yearEnd)}`)}
         </tbody></table></div>
         <p class="footnote">Combined result before tax over the three seasons: <b class="${c.threeYear < 0 ? "neg" : ""}">${m(c.threeYear)}</b>.</p>
       </div>`;
