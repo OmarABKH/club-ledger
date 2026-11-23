@@ -28,15 +28,16 @@ The pipeline in [pipeline/](pipeline/) turns filings into checked figures:
    Where the OCR text is garbled (sideways pages, blank tables), the figures are read from a rendered image of the page (`render.swift`) and still pass the same checks.
 5. **`build_data.py`** combines everything into `data/clubs.js`, which the site loads.
 
-To refresh next season: update `clubs.tsv`, run `python3 fetch.py`, OCR the PDFs (`swiftc -O ocr.swift -o ocr`, then `./ocr pdf/<club>.pdf > text/<club>.txt`), record each club with `record.py`, then run `build_data.py`. Downloaded PDFs and OCR text are not stored in the repository.
+To refresh next season: update the club lists, run `fetch.py` for the new year, OCR the PDFs (`swiftc -O ocr.swift -o ocr`, then `./ocr pdf/<club>.pdf > text/<club>.txt`), record each club-season with `record_season.py`, then run `build_data.py`. Downloaded PDFs and OCR text are not stored in the repository.
 
 ### Judgement calls
 
 - **Which company:** the club's main operating company, except where the full picture is only in a parent's group accounts (e.g. Arsenal Holdings, Chelsea FC Holdings, Tottenham Hotspur Limited, NSWE UK for Aston Villa, QPR Holdings, Football Ventures (Whites) for Bolton). Each club's page names the company used.
 - **Revenue categories:** clubs label revenue differently. Their lines are mapped to matchday, broadcasting and commercial & other; anything ambiguous goes into commercial & other, and individual calls are noted on the club's page.
 - **Staff costs** include wages, social security and pensions, as reported in each staff costs note, plus termination payments some clubs show as exceptional (e.g. Manchester United, Tottenham).
-- **Different periods:** most years end on 30 June; Cardiff, QPR, Stoke and West Ham use 31 May, Burnley 31 July. Wolves' accounts cover 13 months.
-- **Not a PSR calculation:** allowable deductions (academy, women's football, community, infrastructure) aren't fully disclosed, so the site doesn't estimate whether clubs are within the EFL's spending limits.
+- **Different periods:** most years end on 30 June; some clubs use 31 May (e.g. Arsenal, Liverpool, Cardiff, West Ham) or 31 July (Burnley, Sunderland). A few periods are 11 or 13 months because a club changed its year end (Aston Villa 2023/24, Wolves 2024/25, Bristol City 2022/23, Swansea 2023/24); these are flagged on the site.
+- **One-off gains:** some clubs booked large gains from selling assets to companies under the same owners (e.g. Chelsea's women's team and hotels, Newcastle's St James' Park leasehold improvements). They are included in the result before tax, as reported, and flagged on the club's page.
+- **Not a PSR calculation:** allowable deductions (academy, women's football, community, infrastructure) aren't fully disclosed, so the site doesn't estimate whether clubs are within the Premier League's or EFL's spending limits.
 
 ## Files
 
