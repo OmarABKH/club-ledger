@@ -9,6 +9,20 @@ fig = {key: (round(v / k) if isinstance(v, (int, float)) and key not in ("months
 if isinstance(fig.get("prior"), dict):
     fig["prior"] = {pk: round(pv / k) for pk, pv in fig["prior"].items()}
 fig["league"] = league
+# Seasons without full figures: "partial" (some figures published, e.g. revenue and pre-tax only),
+# "none" (accounts filed without an income statement) or "notFiled" (no accounts for the season).
+# They need a reason, which the site shows; any figure not given is stored as not published.
+if fig.get("available", "full") != "full":
+    assert fig["available"] in ("partial", "none", "notFiled"), fig["available"]
+    assert fig.get("gapReason"), "say why the figures are missing (gapReason)"
+    if fig["available"] != "partial":
+        assert not any(k in fig for k in ("revenue", "staffCosts", "preTax")), "no figures for this season"
+    DATA = os.environ.get("DATA", "seasons.json")
+    data = json.load(open(DATA)) if os.path.exists(DATA) else {}
+    data.setdefault(slug, {})[season] = fig
+    json.dump(data, open(DATA, "w"), indent=1)
+    print(f"ok {slug} {season}: {fig['available']} ({', '.join(k for k in ('revenue', 'staffCosts', 'preTax') if k in fig) or 'no figures'})")
+    sys.exit()
 # Other costs can be given directly or derived from the accounts' total operating costs.
 if "opexTotal" in fig:
     fig["otherOpCosts"] = fig.pop("opexTotal") - fig["staffCosts"] - fig["amortisation"]

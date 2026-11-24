@@ -37,7 +37,7 @@
   <section data-view="overview" aria-labelledby="overview-title">
     <header class="site">
       <p class="kicker" id="league-season"></p>
-      <h1 id="overview-title">The money behind the <span data-league-label></span></h1>
+      <h1 id="overview-title">The money behind <span data-league-label></span></h1>
       <p>What each of this season's clubs earned, spent on wages and lost, taken from their accounts at Companies House. Showing the <b data-season-label></b> season; switch league or season from the menu.</p>
     </header>
     <div class="tiles" id="tiles"></div>
@@ -51,7 +51,7 @@
       <h1>Wages as a share of revenue</h1>
       <p class="lede">Staff costs (wages, bonuses, social security and pensions) divided by revenue. The line marks 100%: clubs to the right of it spent more on staff than they brought in, before any other costs.</p>
     </header>
-    <div class="card"><div id="chart-wages"></div></div>
+    <div class="card"><div id="chart-wages"></div><p class="footnote" id="wages-footnote"></p></div>
   </section>
 
   <!-- Revenue -->
@@ -89,6 +89,7 @@
         </div>
       </div>
       <div id="chart-result"></div>
+      <p class="footnote" id="result-footnote"></p>
     </div>
   </section>
 
@@ -99,7 +100,7 @@
       <h1>All the figures</h1>
       <p class="lede">Click a column to sort, or a club for its full breakdown and a link to the original filing.</p>
     </header>
-    <div class="card"><div class="table-scroll"><table class="data" id="table"></table></div></div>
+    <div class="card"><div class="table-scroll"><table class="data" id="table"></table></div><p class="footnote" id="table-footnote"></p></div>
   </section>
 
   <!-- One club -->
@@ -126,13 +127,14 @@
     </header>
     <div class="card">
       <ul>
-        <li><b>Clubs.</b> The clubs in each league in the 2026/27 season, with their finances from the three most recent seasons, whichever league they were in at the time.</li>
+        <li><b>Clubs.</b> The clubs in the Premier League, Championship and League One in the 2026/27 season, with their finances from the three most recent seasons, whichever league they were in at the time.</li>
         <li><b>Source.</b> Each club's annual accounts filed at Companies House (Bolton's are published by the club for its parent company). 2024/25 comes from the accounts for that year; 2023/24 and 2022/23 come from the 2023/24 accounts, which show the previous year alongside. Figures are as reported, in pounds.</li>
+        <li><b>Clubs that don't publish everything.</b> Small companies can file accounts without an income statement, or with only a short one. Nine League One clubs do this for some or all seasons: Doncaster, Mansfield, Notts County, Stevenage, Stockport and Wycombe show no revenue, wages or results; Bradford City, Leyton Orient and Bromley show revenue and the result before tax but not wages. Sheffield Wednesday have not filed accounts for 2024/25 (the club went into administration), and Bromley's next accounts cover the 18 months to June 2026. Missing figures show as a dash, the clubs are left out of charts and totals that need them, and each club's page says what is missing.</li>
         <li><b>Restated figures.</b> Clubs sometimes correct a previous year's figures in the following year's accounts. The site shows each year as first reported (Cardiff's 2023/24 staff costs, for example, were later restated), and notes where this happens.</li>
-        <li><b>Which company.</b> The club's main operating company, or the group that owns it where that's where the full accounts are filed (for example Arsenal Holdings, Chelsea FC Holdings, and NSWE UK for Aston Villa, whose club company doesn't employ the players). The company used is named on each club's page.</li>
+        <li><b>Which company.</b> The club's main operating company, or the group that owns it where that's where the full accounts are filed (for example Arsenal Holdings, Chelsea FC Holdings, and NSWE UK for Aston Villa, whose club company doesn't employ the players). Huddersfield, Leicester, Plymouth and Reading's 2024/25 figures are group accounts; Blackpool's are the club company's, not the holding group's, which also runs a hotel. The company used is named on each club's page.</li>
         <li><b>Staff costs.</b> Wages, bonuses, social security and pensions from each club's staff costs note, including redundancy and termination payments that some clubs show separately as exceptional items.</li>
-        <li><b>Different year ends.</b> Most clubs' years end on 30 June; some use 31 May or 31 July. A few periods are longer or shorter because a club changed its year end (Aston Villa 2023/24, Wolves 2024/25 and Bristol City 2022/23: 13 months; Swansea 2023/24: 11 months). These are marked in the table and on club pages.</li>
-        <li><b>Revenue categories.</b> Clubs split revenue differently. Their lines are mapped to matchday, broadcasting and commercial &amp; other; anything that doesn't fit cleanly (e.g. catering) goes into commercial &amp; other.</li>
+        <li><b>Different year ends.</b> Most clubs' years end on 30 June; some use 31 May or 31 July. A few periods are longer or shorter because a club changed its year end (Aston Villa 2023/24, Wolves 2024/25, Barnsley 2023/24, Bristol City and Leicester 2022/23: 13 months; Swansea 2023/24: 11 months; Mansfield 2024/25: 18 months). Bromley's years run January to December: the year to December 2024 is shown as 2023/24 and the year to December 2023 as 2022/23. These are marked in the table and on club pages.</li>
+        <li><b>Revenue categories.</b> Clubs split revenue differently. Their lines are mapped to matchday, broadcasting and commercial &amp; other; anything that doesn't fit cleanly (e.g. catering) goes into commercial &amp; other. Some clubs don't split revenue this way at all (for example, ticket and league income reported together); they are left out of the revenue chart and their own split is shown on their page.</li>
         <li><b>Checking the numbers.</b> The filings are scanned images, so they're read with OCR (text recognition). Every revenue breakdown is checked to add up to the reported total, and staff costs and the result before tax are checked against the income statement.</li>
         <li><b>Not a spending-rules (PSR) calculation.</b> Clubs can exclude spending on academies, women's football, community work and infrastructure from the Premier League's and EFL's profit and sustainability limits, and those figures aren't fully disclosed. Some clubs have also booked large one-off gains from selling assets to companies under the same owners; these are flagged on the club's page. A large loss here doesn't by itself mean a club broke the rules.</li>
       </ul>

@@ -1,0 +1,1328 @@
+{
+ "afc-wimbledon": {
+  "2024/25": {
+   "revenue": 9784,
+   "matchday": 5858,
+   "broadcasting": 0,
+   "commercial": 3926,
+   "staffCosts": 5737,
+   "amortisation": 145,
+   "playerSales": 972,
+   "preTax": -1304,
+   "mixSplit": "no",
+   "prior": {
+    "revenue": 8686,
+    "staffCosts": 5140,
+    "preTax": 382
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 20,
+    "revenue": 30,
+    "staff": 31
+   },
+   "notes": [
+    "The accounts report ticketing, league distributions and prize money together (\"match receipts, player loans and prize money\", \u00a35.9m), so AFC Wimbledon is left out of the revenue-mix chart.",
+    "A flood at the stadium in September 2024 cost \u00a30.9m (shown as exceptional costs); a \u00a31.0m insurance claim and \u00a30.1m of flood donations are in other income, outside revenue."
+   ],
+   "league": "L2",
+   "otherOpCosts": 7406
+  },
+  "2023/24": {
+   "revenue": 8686,
+   "matchday": 5354,
+   "broadcasting": 0,
+   "commercial": 3331,
+   "staffCosts": 5140,
+   "amortisation": 153,
+   "playerSales": 3280,
+   "preTax": 382,
+   "mixSplit": "no",
+   "source": "2024",
+   "pages": {
+    "pnl": 15,
+    "revenue": 25,
+    "staff": 27
+   },
+   "notes": [
+    "The accounts report ticketing, league distributions and prize money together (\"match receipts, player loans and prize money\"), so AFC Wimbledon is left out of the revenue-mix chart.",
+    "Costs include a \u00a30.4m provision against a debt owed by a company that went into liquidation."
+   ],
+   "league": "L2",
+   "otherOpCosts": 6477
+  },
+  "2022/23": {
+   "revenue": 7283,
+   "matchday": 4406,
+   "broadcasting": 0,
+   "commercial": 2877,
+   "staffCosts": 4112,
+   "amortisation": 173,
+   "playerSales": 2644,
+   "preTax": 1080,
+   "mixSplit": "no",
+   "source": "2024",
+   "pages": {
+    "pnl": 15,
+    "revenue": 25,
+    "staff": 27
+   },
+   "notes": [
+    "The accounts report ticketing, league distributions and prize money together (\"match receipts, player loans and prize money\"), so AFC Wimbledon is left out of the revenue-mix chart."
+   ],
+   "league": "L2",
+   "otherOpCosts": 4553
+  }
+ },
+ "barnsley": {
+  "2024/25": {
+   "revenue": 10277,
+   "matchday": 3864,
+   "broadcasting": 3272,
+   "commercial": 3140,
+   "staffCosts": 11456,
+   "amortisation": 1021,
+   "playerSales": 911,
+   "preTax": -6582,
+   "prior": {
+    "revenue": 8969,
+    "staffCosts": 11252,
+    "preTax": -2845
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 13,
+    "revenue": 24,
+    "staff": 25
+   },
+   "notes": [
+    "Broadcasting here is EFL distributions plus TV income."
+   ],
+   "league": "L1",
+   "otherOpCosts": 5164
+  },
+  "2023/24": {
+   "revenue": 8969,
+   "matchday": 3101,
+   "broadcasting": 2858,
+   "commercial": 3010,
+   "staffCosts": 11252,
+   "amortisation": 872,
+   "playerSales": 7709,
+   "preTax": -2845,
+   "months": 13,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 24,
+    "staff": 25
+   },
+   "notes": [
+    "These accounts cover 13 months, from 1 June 2023 to 30 June 2024, after the club moved its year end from May to June.",
+    "Broadcasting here is EFL distributions plus TV income."
+   ],
+   "league": "L1",
+   "otherOpCosts": 7439
+  },
+  "2022/23": {
+   "revenue": 9539,
+   "matchday": 3424,
+   "broadcasting": 3229,
+   "commercial": 2885,
+   "staffCosts": 9278,
+   "amortisation": 1328,
+   "playerSales": 3278,
+   "preTax": -4008,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 24,
+    "staff": 25
+   },
+   "notes": [
+    "Year to 31 May 2023.",
+    "Broadcasting here is EFL distributions plus TV income. Other costs include a \u00a30.1m impairment of player registrations."
+   ],
+   "league": "L1",
+   "otherOpCosts": 6224
+  }
+ },
+ "blackpool": {
+  "2024/25": {
+   "revenue": 8817,
+   "matchday": 4027,
+   "broadcasting": 2942,
+   "commercial": 1848,
+   "staffCosts": 9949,
+   "amortisation": 1006,
+   "playerSales": 2797,
+   "preTax": -4306,
+   "prior": {
+    "revenue": 9701,
+    "staffCosts": 9508,
+    "preTax": -3940
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 11,
+    "revenue": 20,
+    "staff": 21
+   },
+   "league": "L1",
+   "otherOpCosts": 4965
+  },
+  "2023/24": {
+   "revenue": 9701,
+   "matchday": 4465,
+   "broadcasting": 3252,
+   "commercial": 1985,
+   "staffCosts": 9508,
+   "amortisation": 1219,
+   "playerSales": 2281,
+   "preTax": -3940,
+   "source": "2024",
+   "pages": {
+    "pnl": 11,
+    "revenue": 19,
+    "staff": 20
+   },
+   "league": "L1",
+   "otherOpCosts": 5195
+  },
+  "2022/23": {
+   "revenue": 17261,
+   "matchday": 5346,
+   "broadcasting": 9425,
+   "commercial": 2490,
+   "staffCosts": 13529,
+   "amortisation": 1194,
+   "playerSales": 2927,
+   "preTax": -260,
+   "source": "2024",
+   "pages": {
+    "pnl": 11,
+    "revenue": 19,
+    "staff": 20
+   },
+   "league": "CH",
+   "otherOpCosts": 5724
+  }
+ },
+ "burton": {
+  "2024/25": {
+   "revenue": 6414,
+   "matchday": 903,
+   "broadcasting": 2859,
+   "commercial": 2652,
+   "staffCosts": 8227,
+   "amortisation": 727,
+   "playerSales": 235,
+   "preTax": -8344,
+   "prior": {
+    "revenue": 6384,
+    "staffCosts": 5357,
+    "preTax": -1294
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 13,
+    "revenue": 25,
+    "staff": 26
+   },
+   "notes": [
+    "Costs include a \u00a31.3m management charge from the club's parent company, which took over in 2024/25."
+   ],
+   "league": "L1",
+   "otherOpCosts": 6167
+  },
+  "2023/24": {
+   "revenue": 6384,
+   "matchday": 935,
+   "broadcasting": 2382,
+   "commercial": 3067,
+   "staffCosts": 5357,
+   "amortisation": 151,
+   "playerSales": 221,
+   "preTax": -1294,
+   "source": "2024",
+   "pages": {
+    "pnl": 13,
+    "revenue": 25,
+    "staff": 27
+   },
+   "notes": [
+    "These accounts put EFL distributions inside commercial income; the split shown is the one given for this year in the club's 2024/25 accounts (same total).",
+    "A \u00a30.25m release of accrued agents' fees, shown with player sales in the accounts, is counted here as other income."
+   ],
+   "league": "L1",
+   "otherOpCosts": 2771
+  },
+  "2022/23": {
+   "revenue": 6151,
+   "matchday": 986,
+   "broadcasting": 0,
+   "commercial": 5165,
+   "staffCosts": 4840,
+   "amortisation": 58,
+   "playerSales": 974,
+   "preTax": -135,
+   "mixSplit": "no",
+   "source": "2024",
+   "pages": {
+    "pnl": 13,
+    "revenue": 25,
+    "staff": 27
+   },
+   "notes": [
+    "These accounts include EFL distributions within commercial income (\u00a35.2m) and only show gate receipts separately, so Burton is left out of the revenue-mix chart for this season."
+   ],
+   "league": "L1",
+   "otherOpCosts": 2614,
+   "mixLabels": {
+    "matchday": "Gate receipts",
+    "commercial": "Commercial, including league distributions"
+   }
+  }
+ },
+ "cambridge": {
+  "2024/25": {
+   "revenue": 9246,
+   "matchday": 6460,
+   "broadcasting": 0,
+   "commercial": 2786,
+   "staffCosts": 6661,
+   "amortisation": 0,
+   "playerSales": 0,
+   "preTax": -3737,
+   "mixSplit": "no",
+   "prior": {
+    "revenue": 8305,
+    "staffCosts": 5969,
+    "preTax": -2566
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 13,
+    "revenue": 22,
+    "staff": 22
+   },
+   "notes": [
+    "The accounts report ticketing and league income together as \"football operations\", so Cambridge is left out of the revenue-mix chart.",
+    "No player amortisation or profit on player sales is shown separately in these accounts; any are within other costs."
+   ],
+   "league": "L1",
+   "otherOpCosts": 6327
+  },
+  "2023/24": {
+   "revenue": 8305,
+   "matchday": 6005,
+   "broadcasting": 0,
+   "commercial": 2300,
+   "staffCosts": 6312,
+   "amortisation": 0,
+   "playerSales": 0,
+   "preTax": -2566,
+   "mixSplit": "no",
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 22,
+    "staff": 23
+   },
+   "notes": [
+    "The accounts report ticketing and league income together as \"football\", so Cambridge is left out of the revenue-mix chart.",
+    "No player amortisation or profit on player sales is shown separately in these accounts; any are within other costs.",
+    "Some of these figures were restated in the following year's accounts; the site shows them as first reported."
+   ],
+   "league": "L1",
+   "otherOpCosts": 4570
+  },
+  "2022/23": {
+   "revenue": 7078,
+   "matchday": 4679,
+   "broadcasting": 0,
+   "commercial": 2399,
+   "staffCosts": 4889,
+   "amortisation": 0,
+   "playerSales": 0,
+   "preTax": -1747,
+   "mixSplit": "no",
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 22,
+    "staff": 23
+   },
+   "notes": [
+    "The accounts report ticketing and league income together as \"football\", so Cambridge is left out of the revenue-mix chart.",
+    "No player amortisation or profit on player sales is shown separately in these accounts; any are within other costs."
+   ],
+   "league": "L1",
+   "otherOpCosts": 3943
+  }
+ },
+ "huddersfield": {
+  "2024/25": {
+   "revenue": 10627,
+   "matchday": 3500,
+   "broadcasting": 3531,
+   "commercial": 3596,
+   "staffCosts": 16890,
+   "amortisation": 3110,
+   "playerSales": 1579,
+   "preTax": -22386,
+   "prior": {
+    "revenue": 18163,
+    "staffCosts": 23032,
+    "preTax": -15001
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 13,
+    "revenue": 27,
+    "staff": 28
+   },
+   "league": "L1",
+   "otherOpCosts": 12209
+  },
+  "2023/24": {
+   "revenue": 18163,
+   "matchday": 4122,
+   "broadcasting": 9548,
+   "commercial": 4493,
+   "staffCosts": 23032,
+   "amortisation": 2156,
+   "playerSales": 4366,
+   "preTax": -15001,
+   "source": "2024",
+   "pages": {
+    "pnl": 13,
+    "revenue": 27,
+    "staff": 29
+   },
+   "notes": [
+    "Other income outside revenue includes a \u00a31.0m insurance claim."
+   ],
+   "league": "CH",
+   "otherOpCosts": 11820
+  },
+  "2022/23": {
+   "revenue": 18120,
+   "matchday": 3862,
+   "broadcasting": 9064,
+   "commercial": 5194,
+   "staffCosts": 21522,
+   "amortisation": 1277,
+   "playerSales": 8884,
+   "preTax": -6428,
+   "source": "2024",
+   "pages": {
+    "pnl": 13,
+    "revenue": 27,
+    "staff": 29
+   },
+   "notes": [
+    "As restated in the 2023/24 accounts: \u00a30.2m of costs were reclassified as money owed to the club.",
+    "Other income outside revenue includes a \u00a31.0m insurance claim and \u00a31.4m of financing gains."
+   ],
+   "league": "CH",
+   "otherOpCosts": 11314
+  }
+ },
+ "leicester": {
+  "2024/25": {
+   "revenue": 186504,
+   "matchday": 20279,
+   "broadcasting": 117399,
+   "commercial": 48826,
+   "staffCosts": 152932,
+   "amortisation": 55690,
+   "playerSales": 7268,
+   "preTax": -71124,
+   "prior": {
+    "revenue": 105348,
+    "staffCosts": 107164,
+    "preTax": -19430
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 25,
+    "revenue": 43,
+    "staff": 45
+   },
+   "notes": [
+    "Player amortisation includes \u00a34.6m for players on loan (temporary registrations)."
+   ],
+   "league": "PL",
+   "otherOpCosts": 46668
+  },
+  "2023/24": {
+   "revenue": 105348,
+   "matchday": 18387,
+   "broadcasting": 54190,
+   "commercial": 32771,
+   "staffCosts": 107164,
+   "amortisation": 47221,
+   "playerSales": 71841,
+   "preTax": -19430,
+   "source": "2024",
+   "pages": {
+    "pnl": 25,
+    "revenue": 43,
+    "staff": 45
+   },
+   "notes": [
+    "Other income outside revenue includes \u00a312.7m linked to the departure of the first-team management and the settlement of a commercial dispute."
+   ],
+   "league": "CH",
+   "otherOpCosts": 44524
+  },
+  "2022/23": {
+   "revenue": 177326,
+   "matchday": 18391,
+   "broadcasting": 114540,
+   "commercial": 44395,
+   "staffCosts": 205780,
+   "amortisation": 74724,
+   "playerSales": 72010,
+   "preTax": -89530,
+   "months": 13,
+   "source": "2024",
+   "pages": {
+    "pnl": 25,
+    "revenue": 43,
+    "staff": 45
+   },
+   "notes": [
+    "A 13-month period, from 1 June 2022 to 30 June 2023.",
+    "As restated in the 2023/24 accounts (contingent transfer fees no longer capitalised); the loss was first reported as \u00a389.7m."
+   ],
+   "league": "PL",
+   "otherOpCosts": 46519
+  }
+ },
+ "luton": {
+  "2024/25": {
+   "revenue": 66823,
+   "matchday": 6130,
+   "broadcasting": 56199,
+   "commercial": 4494,
+   "staffCosts": 39505,
+   "amortisation": 12771,
+   "playerSales": 17218,
+   "preTax": 17874,
+   "prior": {
+    "revenue": 132322,
+    "staffCosts": 56881,
+    "preTax": 49467
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 14,
+    "revenue": 21,
+    "staff": 22
+   },
+   "notes": [
+    "Broadcasting includes Premier League parachute payments after relegation in 2024."
+   ],
+   "league": "CH",
+   "otherOpCosts": 14685
+  },
+  "2023/24": {
+   "revenue": 132322,
+   "matchday": 6190,
+   "broadcasting": 116604,
+   "commercial": 9527,
+   "staffCosts": 56881,
+   "amortisation": 9425,
+   "playerSales": 1216,
+   "preTax": 49467,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 21,
+    "staff": 22
+   },
+   "league": "PL",
+   "otherOpCosts": 18575
+  },
+  "2022/23": {
+   "revenue": 18427,
+   "matchday": 5066,
+   "broadcasting": 10123,
+   "commercial": 3237,
+   "staffCosts": 27594,
+   "amortisation": 2395,
+   "playerSales": 4716,
+   "preTax": -16294,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 21,
+    "staff": 22
+   },
+   "notes": [
+    "Costs include promotion bonuses after winning the 2023 Championship play-off final."
+   ],
+   "league": "CH",
+   "otherOpCosts": 9461
+  }
+ },
+ "mk-dons": {
+  "2024/25": {
+   "revenue": 5551,
+   "matchday": 2084,
+   "broadcasting": 0,
+   "commercial": 3467,
+   "staffCosts": 7537,
+   "amortisation": 1003,
+   "playerSales": 4114,
+   "preTax": -3028,
+   "mixSplit": "no",
+   "prior": {
+    "revenue": 5717,
+    "staffCosts": 5223,
+    "preTax": -3086
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 14,
+    "revenue": 20,
+    "staff": 21
+   },
+   "notes": [
+    "The accounts include EFL distributions within commercial income, so MK Dons is left out of the revenue-mix chart; the commercial figure here also includes \u00a30.02m of broadcasting and \u00a30.3m of loan fees from other clubs."
+   ],
+   "league": "L2",
+   "otherOpCosts": 4132,
+   "mixLabels": {
+    "matchday": "Gate receipts",
+    "commercial": "Commercial, including league distributions"
+   }
+  },
+  "2023/24": {
+   "revenue": 5717,
+   "matchday": 2336,
+   "broadcasting": 0,
+   "commercial": 3380,
+   "staffCosts": 5223,
+   "amortisation": 482,
+   "playerSales": 640,
+   "preTax": -3086,
+   "mixSplit": "no",
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 20,
+    "staff": 21
+   },
+   "notes": [
+    "The accounts include EFL distributions within commercial income, so MK Dons is left out of the revenue-mix chart; the commercial figure here also includes the small broadcasting line and loan fees from other clubs."
+   ],
+   "league": "L2",
+   "otherOpCosts": 3715,
+   "mixLabels": {
+    "matchday": "Gate receipts",
+    "commercial": "Commercial, including league distributions"
+   }
+  },
+  "2022/23": {
+   "revenue": 6959,
+   "matchday": 2881,
+   "broadcasting": 0,
+   "commercial": 4078,
+   "staffCosts": 5753,
+   "amortisation": 613,
+   "playerSales": 1226,
+   "preTax": -2222,
+   "mixSplit": "no",
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 20,
+    "staff": 21
+   },
+   "notes": [
+    "The accounts include EFL distributions within commercial income, so MK Dons is left out of the revenue-mix chart; the commercial figure here also includes the small broadcasting line and loan fees from other clubs."
+   ],
+   "league": "L1",
+   "otherOpCosts": 4025,
+   "mixLabels": {
+    "matchday": "Gate receipts",
+    "commercial": "Commercial, including league distributions"
+   }
+  }
+ },
+ "oxford": {
+  "2024/25": {
+   "revenue": 19000,
+   "matchday": 3628,
+   "broadcasting": 11455,
+   "commercial": 3917,
+   "staffCosts": 21658,
+   "amortisation": 2361,
+   "playerSales": 84,
+   "preTax": -17480,
+   "prior": {
+    "revenue": 8439,
+    "staffCosts": 11251,
+    "preTax": -15851
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 11,
+    "revenue": 22,
+    "staff": 23
+   },
+   "notes": [
+    "Other costs include \u00a32.6m of new stadium development costs.",
+    "Other income outside revenue (\u00a30.9m) is the proceeds of an insurance claim."
+   ],
+   "league": "CH",
+   "otherOpCosts": 13394
+  },
+  "2023/24": {
+   "revenue": 8439,
+   "matchday": 2525,
+   "broadcasting": 2270,
+   "commercial": 3645,
+   "staffCosts": 11251,
+   "amortisation": 593,
+   "playerSales": 622,
+   "preTax": -15851,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 23,
+    "staff": 24
+   },
+   "notes": [
+    "Other costs include \u00a35.1m of new stadium development costs.",
+    "The auditor gave a qualified opinion because the previous year's accounts had not been audited."
+   ],
+   "league": "L1",
+   "otherOpCosts": 13750
+  },
+  "2022/23": {
+   "revenue": 7487,
+   "matchday": 2467,
+   "broadcasting": 1810,
+   "commercial": 3210,
+   "staffCosts": 8648,
+   "amortisation": 347,
+   "playerSales": 1627,
+   "preTax": -8092,
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 23,
+    "staff": 24
+   },
+   "notes": [
+    "Unaudited: the club's 2022/23 accounts were not audited. These figures are as corrected in the 2023/24 accounts (an understated creditor added \u00a30.3m to costs).",
+    "Other costs include \u00a31.6m of new stadium development costs."
+   ],
+   "league": "L1",
+   "otherOpCosts": 8162
+  }
+ },
+ "peterborough": {
+  "2024/25": {
+   "revenue": 15923,
+   "matchday": 14922,
+   "broadcasting": 0,
+   "commercial": 1001,
+   "staffCosts": 8519,
+   "amortisation": 1357,
+   "playerSales": 6548,
+   "preTax": 2907,
+   "mixSplit": "no",
+   "mixLabels": {
+    "matchday": "Football and commercial income",
+    "commercial": "Retail"
+   },
+   "prior": {
+    "revenue": 10174,
+    "staffCosts": 7342,
+    "preTax": -2318
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 11,
+    "revenue": 21,
+    "staff": 22
+   },
+   "notes": [
+    "The accounts only split retail income from \"football and commercial income\", so Peterborough is left out of the revenue-mix chart."
+   ],
+   "league": "L1",
+   "otherOpCosts": 8630
+  },
+  "2023/24": {
+   "revenue": 10174,
+   "matchday": 9364,
+   "broadcasting": 0,
+   "commercial": 810,
+   "staffCosts": 7342,
+   "amortisation": 1250,
+   "playerSales": 4069,
+   "preTax": -2318,
+   "mixSplit": "no",
+   "mixLabels": {
+    "matchday": "Football and commercial income",
+    "commercial": "Retail"
+   },
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 22,
+    "staff": 23
+   },
+   "notes": [
+    "The accounts only split retail income from \"football and commercial income\", so Peterborough is left out of the revenue-mix chart."
+   ],
+   "league": "L1",
+   "otherOpCosts": 7137
+  },
+  "2022/23": {
+   "revenue": 10545,
+   "matchday": 9828,
+   "broadcasting": 0,
+   "commercial": 717,
+   "staffCosts": 7746,
+   "amortisation": 1373,
+   "playerSales": 3241,
+   "preTax": -3532,
+   "mixSplit": "no",
+   "mixLabels": {
+    "matchday": "Football and commercial income",
+    "commercial": "Retail"
+   },
+   "source": "2024",
+   "pages": {
+    "pnl": 12,
+    "revenue": 22,
+    "staff": 23
+   },
+   "notes": [
+    "The accounts only split retail income from \"football and commercial income\", so Peterborough is left out of the revenue-mix chart.",
+    "Costs below operating profit include \u00a30.4m of loans written off."
+   ],
+   "league": "L1",
+   "otherOpCosts": 7108
+  }
+ },
+ "plymouth": {
+  "2024/25": {
+   "revenue": 28828,
+   "matchday": 5932,
+   "broadcasting": 11330,
+   "commercial": 11566,
+   "staffCosts": 21245,
+   "amortisation": 2487,
+   "playerSales": 6139,
+   "preTax": 322,
+   "prior": {
+    "revenue": 25577,
+    "staffCosts": 16841,
+    "preTax": -2401
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 17,
+    "revenue": 29,
+    "staff": 31
+   },
+   "notes": [
+    "Matchday here is ticket sales only; hospitality and venue income (\u00a34.7m) is counted as commercial.",
+    "Profit on player sales is inside other operating income in these accounts and is pulled out here using the operating profit note; the remaining \u00a32.7m of other income (including insurance) sits outside revenue."
+   ],
+   "league": "CH",
+   "otherOpCosts": 13749
+  },
+  "2023/24": {
+   "revenue": 25577,
+   "matchday": 5459,
+   "broadcasting": 8871,
+   "commercial": 11247,
+   "staffCosts": 16841,
+   "amortisation": 1311,
+   "playerSales": 810,
+   "preTax": -2401,
+   "source": "2024",
+   "pages": {
+    "pnl": 17,
+    "revenue": 26,
+    "staff": 28
+   },
+   "notes": [
+    "Matchday here is ticket sales only; hospitality and venue income is counted as commercial.",
+    "Profit on player sales is inside other operating income in these accounts and is pulled out here using the operating loss note."
+   ],
+   "league": "CH",
+   "otherOpCosts": 11178
+  },
+  "2022/23": {
+   "revenue": 14662,
+   "matchday": 4550,
+   "broadcasting": 1889,
+   "commercial": 8223,
+   "staffCosts": 9124,
+   "amortisation": 838,
+   "playerSales": 287,
+   "preTax": -3447,
+   "source": "2024",
+   "pages": {
+    "pnl": 17,
+    "revenue": 26,
+    "staff": 28
+   },
+   "notes": [
+    "Matchday here is ticket sales only; hospitality and venue income is counted as commercial.",
+    "Profit on player sales is inside other operating income in these accounts and is pulled out here using the operating loss note."
+   ],
+   "league": "L1",
+   "otherOpCosts": 8636
+  }
+ },
+ "reading": {
+  "2024/25": {
+   "revenue": 9806,
+   "matchday": 4268,
+   "broadcasting": 2449,
+   "commercial": 3088,
+   "staffCosts": 12408,
+   "amortisation": 0,
+   "playerSales": 9508,
+   "preTax": -3882,
+   "prior": {
+    "revenue": 10002,
+    "staffCosts": 15818,
+    "preTax": -13064
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 13,
+    "revenue": 26,
+    "staff": 27
+   },
+   "notes": [
+    "The club carried no player registrations on its balance sheet this year, so there is no player amortisation."
+   ],
+   "league": "L1",
+   "otherOpCosts": 10667
+  },
+  "2023/24": {
+   "revenue": 10002,
+   "matchday": 3979,
+   "broadcasting": 2675,
+   "commercial": 3347,
+   "staffCosts": 14047,
+   "amortisation": 0,
+   "playerSales": 3183,
+   "preTax": -12374,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 23,
+    "staff": 25
+   },
+   "notes": [
+    "From the club company's own accounts; the 2024/25 accounts are group accounts and show this year as a \u00a313.1m loss with \u00a315.8m of staff costs."
+   ],
+   "league": "L1",
+   "otherOpCosts": 11425
+  },
+  "2022/23": {
+   "revenue": 18680,
+   "matchday": 4847,
+   "broadcasting": 9392,
+   "commercial": 4441,
+   "staffCosts": 24470,
+   "amortisation": 4500,
+   "playerSales": 1654,
+   "preTax": -21718,
+   "source": "2024",
+   "pages": {
+    "pnl": 14,
+    "revenue": 23,
+    "staff": 25
+   },
+   "notes": [
+    "Includes a one-off \u00a37.7m credit from releasing a provision against money owed by another group company, which reduced the loss."
+   ],
+   "league": "CH",
+   "otherOpCosts": 20690
+  }
+ },
+ "wigan": {
+  "2024/25": {
+   "revenue": 7251,
+   "matchday": 2112,
+   "broadcasting": 2620,
+   "commercial": 2519,
+   "staffCosts": 9853,
+   "amortisation": 203,
+   "playerSales": 7565,
+   "preTax": -398,
+   "prior": {
+    "revenue": 9246,
+    "staffCosts": 11720,
+    "preTax": -8225
+   },
+   "source": "2025",
+   "pages": {
+    "pnl": 12,
+    "revenue": 20,
+    "staff": 20
+   },
+   "notes": [
+    "Broadcasting here is EFL and Premier League distributions plus cup TV and prize money.",
+    "During the year matchday staff moved to Wigan Sporting Events Ltd, a sister company, and stadium hire income no longer appears in the club's accounts."
+   ],
+   "league": "L1",
+   "otherOpCosts": 5169
+  },
+  "2023/24": {
+   "revenue": 9246,
+   "matchday": 2379,
+   "broadcasting": 2548,
+   "commercial": 4319,
+   "staffCosts": 11720,
+   "amortisation": 481,
+   "playerSales": 749,
+   "preTax": -8225,
+   "source": "2024",
+   "pages": {
+    "pnl": 16,
+    "revenue": 23,
+    "staff": 24
+   },
+   "notes": [
+    "Broadcasting here is EFL and Premier League distributions plus cup TV and prize money."
+   ],
+   "league": "L1",
+   "otherOpCosts": 6027
+  },
+  "2022/23": {
+   "revenue": 15865,
+   "matchday": 2640,
+   "broadcasting": 8555,
+   "commercial": 4670,
+   "staffCosts": 23240,
+   "amortisation": 607,
+   "playerSales": 380,
+   "preTax": -13370,
+   "source": "2024",
+   "pages": {
+    "pnl": 16,
+    "revenue": 23,
+    "staff": 24
+   },
+   "notes": [
+    "Broadcasting here is EFL and Premier League distributions plus cup TV and prize money."
+   ],
+   "league": "CH",
+   "otherOpCosts": 5768
+  }
+ },
+ "sheffield-wednesday": {
+  "2023/24": {
+   "revenue": 26335,
+   "matchday": 17947,
+   "broadcasting": 0,
+   "commercial": 8388,
+   "staffCosts": 21810,
+   "amortisation": 819,
+   "playerSales": 0,
+   "preTax": -10012,
+   "mixSplit": "no",
+   "mixLabels": {
+    "matchday": "Match receipts and associated income",
+    "commercial": "Commercial activities"
+   },
+   "source": "2024",
+   "pages": {
+    "pnl": 22,
+    "revenue": 31,
+    "staff": 32
+   },
+   "notes": [
+    "The accounts only split \"match receipts and associated\" income from commercial activities, so Sheffield Wednesday is left out of the revenue-mix chart.",
+    "No profit on player sales is shown separately in these accounts.",
+    "Costs include \u00a32.6m of stadium rent, which the 2022/23 accounts did not have."
+   ],
+   "league": "CH",
+   "otherOpCosts": 13087
+  },
+  "2022/23": {
+   "revenue": 19311,
+   "matchday": 10593,
+   "broadcasting": 0,
+   "commercial": 8718,
+   "staffCosts": 15759,
+   "amortisation": 132,
+   "playerSales": 0,
+   "preTax": -7242,
+   "mixSplit": "no",
+   "mixLabels": {
+    "matchday": "Match receipts and associated income",
+    "commercial": "Commercial activities"
+   },
+   "source": "2024",
+   "pages": {
+    "pnl": 22,
+    "revenue": 31,
+    "staff": 32
+   },
+   "notes": [
+    "The accounts only split \"match receipts and associated\" income from commercial activities, so Sheffield Wednesday is left out of the revenue-mix chart.",
+    "No profit on player sales is shown separately in these accounts."
+   ],
+   "league": "L1",
+   "otherOpCosts": 10768
+  },
+  "2024/25": {
+   "available": "notFiled",
+   "source": null,
+   "gapReason": "No accounts have been filed for the year to July 2025. The club went into administration in October 2025.",
+   "league": "CH"
+  }
+ },
+ "bromley": {
+  "2023/24": {
+   "available": "partial",
+   "revenue": 5270,
+   "preTax": -1095,
+   "source": "2024",
+   "pages": {
+    "pnl": 10
+   },
+   "gapReason": "Filed as small-company accounts, which show revenue and the result before tax but not staff costs, player trading or a breakdown of revenue.",
+   "notes": [
+    "Bromley's accounts run from January to December. The year to 31 December 2024 is shown as 2023/24, the season most of it falls in (Bromley were in the National League until May 2024)."
+   ],
+   "league": "NL"
+  },
+  "2022/23": {
+   "available": "partial",
+   "revenue": 3982,
+   "preTax": -461,
+   "source": "2024",
+   "pages": {
+    "pnl": 10
+   },
+   "gapReason": "Filed as small-company accounts, which show revenue and the result before tax but not staff costs, player trading or a breakdown of revenue.",
+   "notes": [
+    "Bromley's accounts run from January to December. The year to 31 December 2023 is shown as 2022/23, one year before the 2024 accounts."
+   ],
+   "league": "NL"
+  },
+  "2024/25": {
+   "available": "notFiled",
+   "source": null,
+   "gapReason": "Not filed yet: Bromley extended their accounting period to run 18 months, from January 2025 to 30 June 2026, so the next accounts are not due until 2027.",
+   "league": "L2"
+  }
+ },
+ "bradford": {
+  "2024/25": {
+   "available": "partial",
+   "revenue": 8695,
+   "preTax": -2993,
+   "source": "2025",
+   "pages": {
+    "pnl": 7
+   },
+   "gapReason": "Filed as small-company accounts, which show revenue and the result before tax but not staff costs, player trading or a breakdown of revenue.",
+   "league": "L2"
+  },
+  "2023/24": {
+   "available": "partial",
+   "revenue": 8635,
+   "preTax": -997,
+   "source": "2024",
+   "pages": {
+    "pnl": 7
+   },
+   "gapReason": "Filed as small-company accounts, which show revenue and the result before tax but not staff costs, player trading or a breakdown of revenue.",
+   "league": "L2"
+  },
+  "2022/23": {
+   "available": "partial",
+   "revenue": 8543,
+   "preTax": -374,
+   "source": "2024",
+   "pages": {
+    "pnl": 7
+   },
+   "gapReason": "Filed as small-company accounts, which show revenue and the result before tax but not staff costs, player trading or a breakdown of revenue.",
+   "league": "L2"
+  }
+ },
+ "leyton-orient": {
+  "2024/25": {
+   "available": "partial",
+   "revenue": 9431,
+   "preTax": -4614,
+   "source": "2025",
+   "pages": {
+    "pnl": 7
+   },
+   "gapReason": "Filed as small-company accounts, which show revenue and the result before tax but not staff costs, player trading or a breakdown of revenue.",
+   "league": "L1"
+  },
+  "2023/24": {
+   "available": "partial",
+   "revenue": 7719,
+   "preTax": -3744,
+   "source": "2024",
+   "pages": {
+    "pnl": 7
+   },
+   "gapReason": "Filed as small-company accounts, which show revenue and the result before tax but not staff costs, player trading or a breakdown of revenue.",
+   "league": "L1"
+  },
+  "2022/23": {
+   "available": "partial",
+   "revenue": 5903,
+   "preTax": -4035,
+   "source": "2024",
+   "pages": {
+    "pnl": 7
+   },
+   "gapReason": "Filed as small-company accounts, which show revenue and the result before tax but not staff costs, player trading or a breakdown of revenue.",
+   "notes": [
+    "As restated in the 2023/24 accounts."
+   ],
+   "league": "L2"
+  }
+ },
+ "doncaster": {
+  "2024/25": {
+   "available": "none",
+   "source": "2025",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L2"
+  },
+  "2023/24": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L2"
+  },
+  "2022/23": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L2"
+  }
+ },
+ "notts-county": {
+  "2024/25": {
+   "available": "none",
+   "source": "2025",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L2"
+  },
+  "2023/24": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L2"
+  },
+  "2022/23": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "NL"
+  }
+ },
+ "stevenage": {
+  "2024/25": {
+   "available": "none",
+   "source": "2025",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L1"
+  },
+  "2023/24": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L1"
+  },
+  "2022/23": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L2"
+  }
+ },
+ "stockport": {
+  "2024/25": {
+   "available": "none",
+   "source": "2025",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L1"
+  },
+  "2023/24": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L2"
+  },
+  "2022/23": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L2"
+  }
+ },
+ "wycombe": {
+  "2024/25": {
+   "available": "none",
+   "source": "2025",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L1"
+  },
+  "2023/24": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L1"
+  },
+  "2022/23": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "league": "L1"
+  }
+ },
+ "mansfield": {
+  "2024/25": {
+   "available": "none",
+   "source": "2025",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "months": 18,
+   "league": "L1"
+  },
+  "2023/24": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "notes": [
+    "Mansfield's accounts ran January to December until 2023, then covered 18 months to 30 June 2025. The 2023 accounts say the payroll costs of most of its staff were recharged to group and connected companies."
+   ],
+   "league": "L2"
+  },
+  "2022/23": {
+   "available": "none",
+   "source": "2024",
+   "gapReason": "Filed as small-company accounts with a balance sheet but no income statement (small companies may leave it out), so revenue, wages and results are not published.",
+   "notes": [
+    "Mansfield's accounts ran January to December until 2023, then covered 18 months to 30 June 2025. The 2023 accounts say the payroll costs of most of its staff were recharged to group and connected companies."
+   ],
+   "league": "L2"
+  }
+ }
+}

@@ -118,6 +118,9 @@ table.data.trend abbr { text-decoration: none; }
 
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin: 16px 0; min-width: 0; }
 .card h2 { margin: 0 0 12px; font: 600 22px/1.2 var(--display); text-wrap: balance; }
+/* Club page: why some or all of a season's figures aren't published. */
+.card.gap { border-left: 4px solid var(--muted); }
+.card.gap p { margin: 0; color: var(--ink-2); }
 .chart-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin: 0 0 12px; }
 .chart-tools .controls, .chart-tools .legend { margin: 0; }
 .footnote { margin: 12px 0 0; color: var(--ink-2); font-size: 13px; }

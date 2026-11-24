@@ -16,6 +16,9 @@ LEAGUES = [
     {"id": "championship", "name": "Championship", "season": "2026/27",
      "filings": {"2025": "filings.json", "2024": "filings-2024.json"}, "seasons": "seasons.json",
      "prior_year_end": {"swansea": "2023-07-31"}},
+    {"id": "league-one", "name": "League One", "season": "2026/27",
+     "filings": {"2025": "filings-l1.json", "2024": "filings-l1-2024.json"}, "seasons": "seasons-l1.json",
+     "prior_year_end": {"barnsley": "2023-05-31"}},
 ]
 
 def tidy(name):
@@ -32,6 +35,7 @@ def year_end(description):
     return datetime.date(int(m.group(3)), MONTHS[m.group(2)], int(m.group(1)))
 
 FIELDS = ["league", "revenue", "matchday", "broadcasting", "commercial", "staffCosts", "amortisation", "otherOpCosts", "playerSales", "preTax", "pages"]
+# Figures a club didn't publish are null; "available" says why (see record_season.py).
 
 def build_league(cfg):
     filings = {year: load(name) for year, name in cfg["filings"].items()}
@@ -41,21 +45,26 @@ def build_league(cfg):
         club = {"slug": slug, "name": latest["name"], "seasons": {}}
         for season in SEASONS:
             fig = seasons[slug][season]
-            source = filings[fig["source"]][slug]
-            end = year_end(source["description"])
-            if season == "2022/23":
+            # A season with no accounts filed has no source filing; the club's company comes from the latest one.
+            source = filings[fig["source"]][slug] if fig["source"] else None
+            end = year_end(source["description"]) if source else None
+            if season == "2022/23" and end:
                 override = cfg["prior_year_end"].get(slug)
                 end = datetime.date.fromisoformat(override) if override else end.replace(year=end.year - 1)
+            company = source or latest
             club["seasons"][season] = {
-                **{k: fig[k] for k in FIELDS},
-                "yearEnd": end.isoformat(),
+                **{k: fig.get(k) for k in FIELDS},
+                "available": fig.get("available", "full"),
+                "gapReason": fig.get("gapReason"),
+                "yearEnd": end and end.isoformat(),
                 "months": fig.get("months", 12),
-                "companyName": tidy(source["companyName"]),
-                "companyNumber": source["companyNumber"],
-                "accountsType": "Group" if "group" in source["description"].lower() else "Company",
-                "sourceUrl": source["url"],
+                "companyName": tidy(company["companyName"]),
+                "companyNumber": company["companyNumber"],
+                "accountsType": source and ("Group" if "group" in source["description"].lower() else "Company"),
+                "sourceUrl": source and source["url"],
                 "comparative": season == "2022/23",
                 "mixSplit": fig.get("mixSplit") != "no",
+                "mixLabels": fig.get("mixLabels"),
                 "notes": fig.get("notes", []),
             }
         clubs.append(club)
